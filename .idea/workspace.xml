@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1b7e227-faf3-4174-82ee-81062becd10f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/09/18/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/18/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/09/25/美食日历-网红餐厅.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/25/美食日历-网红餐厅.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/timeline.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -359,12 +351,12 @@
       <workItem from="1537154415476" duration="23983000" />
       <workItem from="1537261911573" duration="543000" />
       <workItem from="1537262520468" duration="3172000" />
-      <workItem from="1537863047054" duration="359000" />
+      <workItem from="1537863047054" duration="388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30402000" />
+    <option name="totallyTimeSpent" value="30431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
