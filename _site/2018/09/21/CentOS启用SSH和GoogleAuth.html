@@ -1,0 +1,365 @@
+<!-- 博文的布局-Layout -->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 引入head标签 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="自家的博客，没啥好说的。技术，情感分析，爱情导师，厨子，旅行。" />
+<meta name="keywords" content="关键词啥的最重要了,技术,情感分析,爱情导师,厨子,旅行" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/media.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/pygments/pygments_default.css">
+<link rel="stylesheet" href="/assets/css/github-markdown.css">
+<!-- SNS-icon -->
+<script src="/assets/fonts/sns/iconfont.js"></script>
+<!-- share.css -->
+<link rel="stylesheet" href="/assets/css/share.min.css">
+<!-- font -->
+<link rel="stylesheet" href="/assets/css/font.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> -->
+
+<!-- Favicon -->
+<link href="/assets/profile.jpeg" rel="shortcut icon" />
+<link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
+<!-- Android Lolipop Theme Color -->
+<!-- <meta name="theme-color" content="#1464FB"> -->
+<title>有锁，跑的更安全</title>
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?http://wjmwjmwb.com";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌分析 -->
+
+
+<!-- Android Lolipop Theme Color -->
+<meta name="theme-color" content=" RGBA(150, 96, 240, 0.3) ">
+</head>
+<body>
+
+<!-- 顶部锚点 -->
+<a id="htmlup" name="htmlup"></a>
+<!-- 引入博文顶部选项 -->
+
+<header id="post-header" style="background-color:RGBA(150, 96, 240, 0.3);">
+  <div class="top-center">
+      <div class="logo">
+          <a href="/" title="my awesome webtitle" style="color: white;">DM️</a>
+      </div>
+      <nav class="top-nav">
+          <ul>
+              
+                <li><a href="/" style="color: white;">首页</a></li>
+              
+                <li><a href="/tags.html" style="color: white;">标签</a></li>
+              
+                <li><a href="/timeline.html" style="color: white;">时间线</a></li>
+              
+                <li><a href="/about.html" style="color: white;">关于我们</a></li>
+              
+                <li><a href="/friendLink.html" style="color: white;">好友们</a></li>
+              
+          </ul>
+      </nav>
+      <div id="top-boot">
+        <a href="javascript:;" id="boot1" style="display:block;" onclick="document.getElementById('boot-area').style.display='block';document.getElementById('boot1').style.display='none';document.getElementById('boot2').style.display='block';"><img src="/assets/boot_white.png" alt=""></a>
+        <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot_white.png" alt=""></a>
+      </div>
+  </div>
+
+</header>
+
+
+<!-- 引入移动下拉选项 -->
+<div id="boot-area">
+    <ul>
+        
+          <a href="/"><li>首页</li></a>
+        
+          <a href="/tags.html"><li>标签</li></a>
+        
+          <a href="/timeline.html"><li>时间线</li></a>
+        
+          <a href="/about.html"><li>关于我们</li></a>
+        
+          <a href="/friendLink.html"><li>好友们</li></a>
+        
+    </ul>
+</div>
+
+<!-- 引入博文顶部样式 -->
+<!-- 版本一 垃圾 -->
+<!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
+    <span class="wow fadeInUp" data-wow-delay="0.2s">有锁，跑的更安全</span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;true</span>
+</div> -->
+
+<!-- 版本二 可切换页面 -->
+
+<div class="post-top" style="background-color:RGBA(150, 96, 240, 0.3);">
+  <!-- 页面宽度大于800px -->
+  <div class="left-area">
+    
+      <a href="/2018/09/25/%E7%BE%8E%E9%A3%9F%E6%97%A5%E5%8E%86-%E7%BD%91%E7%BA%A2%E9%A4%90%E5%8E%85.html" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='RGBA(150, 96, 240, 0.3)';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:RGBA(150, 96, 240, 0.3);"><sapn class="main">美食日历+网红餐厅</sapn></span></div>
+    
+  </div>
+  <div class="post-titlearea">
+    <span class="wow fadeInUp" data-wow-delay="0.2s">有锁，跑的更安全</span>
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;true</span> -->
+  </div>
+  <div class="right-area">
+    
+      <a href="/2018/09/20/Shadowsocks.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='RGBA(150, 96, 240, 0.3)';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:RGBA(150, 96, 240, 0.3);"><sapn class="main">翻出去，看看生活的美好</sapn></span></div>
+    
+  </div>
+
+  <!-- 页面宽度小于800px -->
+  <div class="post-changearea">
+    
+      <a href="/2018/09/25/%E7%BE%8E%E9%A3%9F%E6%97%A5%E5%8E%86-%E7%BD%91%E7%BA%A2%E9%A4%90%E5%8E%85.html" class="leftchange" style="border-right: 1px solid RGBA(150, 96, 240, 0.3);border-bottom: 2px solid RGBA(150, 96, 240, 0.3);"><span>上一篇<br><br>美食日历+网红餐厅</span></a>
+    
+    
+      <a href="/2018/09/20/Shadowsocks.html" class="rightchange" style="border-left: 1px solid RGBA(150, 96, 240, 0.3);border-bottom: 2px solid RGBA(150, 96, 240, 0.3);"><span>下一篇<br><br>翻出去，看看生活的美好</span></a>
+    
+  </div>
+</div>
+
+
+<div class="markdown-body fadeInUp animated">
+
+  
+    
+      <div class="postpage-subtitle" style="border-left: 8px solid RGBA(150, 96, 240, 0.3); border-right: 8px solid RGBA(150, 96, 240, 0.3)">
+        CentOS启用SSH和GoogleAuth二步验证
+      </div>
+    
+  
+
+  <!-- 文章内容 -->
+  <p>#<strong><em>CentOS启用SSH和Google-Auth</em></strong></p>
+<h2 id="ssh-key"><strong>SSH-Key</strong></h2>
+<h3 id="生成ssh-key并且修改文件权限">生成ssh-key，并且修改文件权限</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$ssh</span><span class="o">-</span><span class="nx">keygen</span>
+<span class="nx">$chmod</span> <span class="mi">700</span> <span class="o">/</span><span class="nx">home</span><span class="o">/</span><span class="nx">dev</span><span class="o">/</span><span class="p">.</span><span class="nx">ssh</span>
+<span class="nx">$chmod</span> <span class="mi">644</span> <span class="o">/</span><span class="nx">home</span><span class="o">/</span><span class="nx">dev</span><span class="o">/</span><span class="p">.</span><span class="nx">ssh</span><span class="o">/</span><span class="nx">xxxxx</span>
+</code></pre></div></div>
+<p>将生成的xxxxx.pub copy到本地</p>
+<h3 id="修改sshd_config">修改sshd_config</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$vim</span> <span class="o">/</span><span class="nx">etc</span><span class="o">/</span><span class="nx">ssh</span><span class="o">/</span><span class="nx">sshd_config</span>
+</code></pre></div></div>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">RSAAuthentication</span> <span class="nx">yes</span> <span class="err">#</span> <span class="err">启用</span><span class="nx">RSA</span><span class="err">认证</span>
+<span class="nx">PubkeyAuthentication</span> <span class="nx">yes</span> <span class="err">#</span> <span class="err">启用公钥认证</span>
+<span class="nx">AuthenticationMethods</span> <span class="nx">publickey</span>
+<span class="nx">PasswordAuthentication</span> <span class="nx">no</span>  <span class="err">#停止密码验证</span>
+</code></pre></div></div>
+<h3 id="重启sshd服务">重启sshd服务</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$service</span> <span class="nx">sshd</span> <span class="nx">restart</span>
+</code></pre></div></div>
+
+<h2 id="google-authenticator"><strong>google-authenticator</strong></h2>
+<h6 id="同时推荐大家使用自家解锁产品-minaotp">同时推荐大家使用自家解锁产品 <a href="https://github.com/MinaOTP">MinaOTP</a></h6>
+<h3 id="安装google-authenticator">安装google-authenticator</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$yum</span> <span class="nx">install</span> <span class="o">-</span><span class="nx">y</span>  <span class="nx">autoconf</span> <span class="nx">automake</span> <span class="nx">libtool</span> <span class="nx">pam</span><span class="o">-</span><span class="nx">devel</span> <span class="nx">git</span> <span class="nx">qrencode</span>
+<span class="nx">$git</span> <span class="nx">clone</span> <span class="nx">https</span><span class="p">:</span><span class="c1">//github.com/google/google-authenticator-libpam.git</span>
+<span class="nx">$cd</span> <span class="nx">google</span><span class="o">-</span><span class="nx">authenticator</span><span class="o">-</span><span class="nx">libpam</span><span class="o">/</span>
+<span class="nx">$</span><span class="p">.</span><span class="o">/</span><span class="nx">bootstrap</span><span class="p">.</span><span class="nx">sh</span>
+<span class="nx">$</span><span class="p">.</span><span class="o">/</span><span class="nx">configure</span>
+<span class="nx">$make</span>
+<span class="nx">$make</span> <span class="nx">install</span>
+<span class="nx">$ln</span> <span class="o">-</span><span class="nx">s</span> <span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">local</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span><span class="nx">security</span><span class="o">/</span><span class="nx">pam_google_authenticator</span><span class="p">.</span><span class="nx">so</span> <span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">lib64</span><span class="o">/</span><span class="nx">security</span><span class="o">/</span><span class="nx">pam_google_authenticator</span><span class="p">.</span><span class="nx">so</span>
+</code></pre></div></div>
+
+<h3 id="配置openssh">配置openssh</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$vim</span> <span class="o">/</span><span class="nx">etc</span><span class="o">/</span><span class="nx">pam</span><span class="p">.</span><span class="nx">d</span><span class="o">/</span><span class="nx">sshd</span>
+</code></pre></div></div>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">auth</span>    <span class="nx">required</span>    <span class="nx">pam_google_authenticator</span><span class="p">.</span><span class="nx">so</span> <span class="nx">nullok</span>
+</code></pre></div></div>
+<h3 id="编辑etcsshsshd_config">编辑/etc/ssh/sshd_config</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">UsePAM</span> <span class="nx">yes</span>
+<span class="nx">UseDNS</span> <span class="nx">no</span>
+<span class="nx">ChallengeResponseAuthentication</span> <span class="nx">yes</span>
+<span class="err">#</span> <span class="err">针对不同的用户组，做不同的验权处理</span>
+<span class="nx">Match</span> <span class="nx">Group</span> <span class="nx">devuser</span>
+        <span class="nx">AuthenticationMethods</span> <span class="nx">publickey</span><span class="p">,</span><span class="nx">keyboard</span><span class="o">-</span><span class="nx">interactive</span>
+<span class="nx">Match</span> <span class="nx">Group</span> <span class="nx">product</span>
+        <span class="nx">AuthenticationMethods</span> <span class="nx">publickey</span>
+</code></pre></div></div>
+<h3 id="重启sshd">重启sshd</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$service</span> <span class="nx">sshd</span> <span class="nx">restart</span>
+</code></pre></div></div>
+<h3 id="生成google-auth">生成google-auth</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$google</span><span class="o">-</span><span class="nx">authenticator</span>
+</code></pre></div></div>
+<h3 id="编辑-etcpamdsshd">编辑 /etc/pam.d/sshd</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$vim</span> <span class="o">/</span><span class="nx">etc</span><span class="o">/</span><span class="nx">pam</span><span class="p">.</span><span class="nx">d</span><span class="o">/</span><span class="nx">sshd</span>
+</code></pre></div></div>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">auth</span>      <span class="nx">required</span>    <span class="nx">pam_sepermit</span><span class="p">.</span><span class="nx">so</span>
+<span class="nx">auth</span>      <span class="nx">required</span>    <span class="nx">pam_google_authenticator</span><span class="p">.</span><span class="nx">so</span>
+<span class="err">#</span><span class="nx">auth</span>       <span class="nx">substack</span>     <span class="nx">password</span><span class="o">-</span><span class="nx">auth</span>
+<span class="err">#</span><span class="nx">auth</span>       <span class="nx">include</span>      <span class="nx">postlogin</span>
+<span class="nx">account</span>    <span class="nx">required</span>    <span class="nx">pam_nologin</span><span class="p">.</span><span class="nx">so</span>
+<span class="nx">account</span>    <span class="nx">include</span>      <span class="nx">password</span><span class="o">-</span><span class="nx">auth</span>
+<span class="nx">password</span>  <span class="nx">include</span>      <span class="nx">password</span><span class="o">-</span><span class="nx">auth</span>
+<span class="err">#</span> <span class="nx">pam_selinux</span><span class="p">.</span><span class="nx">so</span> <span class="nx">close</span> <span class="nx">should</span> <span class="nx">be</span> <span class="nx">the</span> <span class="nx">first</span> <span class="nx">session</span> <span class="nx">rule</span>
+<span class="nx">session</span>    <span class="nx">required</span>    <span class="nx">pam_selinux</span><span class="p">.</span><span class="nx">so</span> <span class="nx">close</span>
+<span class="nx">session</span>    <span class="nx">required</span>    <span class="nx">pam_loginuid</span><span class="p">.</span><span class="nx">so</span>
+<span class="err">#</span> <span class="nx">pam_selinux</span><span class="p">.</span><span class="nx">so</span> <span class="nx">open</span> <span class="nx">should</span> <span class="nx">only</span> <span class="nx">be</span> <span class="nx">followed</span> <span class="nx">by</span> <span class="nx">sessions</span> <span class="nx">to</span> <span class="nx">be</span> <span class="nx">executed</span> <span class="k">in</span> <span class="nx">the</span> <span class="nx">user</span> <span class="nx">context</span>
+<span class="nx">session</span>    <span class="nx">required</span>    <span class="nx">pam_selinux</span><span class="p">.</span><span class="nx">so</span> <span class="nx">open</span> <span class="nx">env_params</span>
+<span class="nx">session</span>    <span class="nx">optional</span>    <span class="nx">pam_keyinit</span><span class="p">.</span><span class="nx">so</span> <span class="nx">force</span> <span class="nx">revoke</span>
+<span class="nx">session</span>    <span class="nx">include</span>      <span class="nx">password</span><span class="o">-</span><span class="nx">auth</span>
+<span class="nx">session</span>    <span class="nx">include</span>      <span class="nx">postlogin</span>
+</code></pre></div></div>
+<h3 id="编辑-etcpamdsu">编辑 /etc/pam.d/su</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$vim</span> <span class="o">/</span><span class="nx">etc</span><span class="o">/</span><span class="nx">pam</span><span class="p">.</span><span class="nx">d</span><span class="o">/</span><span class="nx">su</span>
+</code></pre></div></div>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">auth</span>            <span class="nx">sufficient</span>      <span class="nx">pam_rootok</span><span class="p">.</span><span class="nx">so</span>
+<span class="nx">auth</span>      <span class="nx">required</span>    <span class="nx">pam_google_authenticator</span><span class="p">.</span><span class="nx">so</span>
+<span class="err">#</span> <span class="nx">Uncomment</span> <span class="nx">the</span> <span class="nx">following</span> <span class="nx">line</span> <span class="nx">to</span> <span class="nx">implicitly</span> <span class="nx">trust</span> <span class="nx">users</span> <span class="k">in</span> <span class="nx">the</span> <span class="s2">"wheel"</span> <span class="nx">group</span><span class="p">.</span>
+<span class="err">#</span><span class="nx">auth</span>          <span class="nx">sufficient</span>      <span class="nx">pam_wheel</span><span class="p">.</span><span class="nx">so</span> <span class="nx">trust</span> <span class="nx">use_uid</span>
+<span class="err">#</span> <span class="nx">Uncomment</span> <span class="nx">the</span> <span class="nx">following</span> <span class="nx">line</span> <span class="nx">to</span> <span class="nx">require</span> <span class="nx">a</span> <span class="nx">user</span> <span class="nx">to</span> <span class="nx">be</span> <span class="k">in</span> <span class="nx">the</span> <span class="s2">"wheel"</span> <span class="nx">group</span><span class="p">.</span>
+<span class="err">#</span><span class="nx">auth</span>          <span class="nx">required</span>        <span class="nx">pam_wheel</span><span class="p">.</span><span class="nx">so</span> <span class="nx">use_uid</span>
+<span class="nx">auth</span>            <span class="nx">substack</span>        <span class="nx">system</span><span class="o">-</span><span class="nx">auth</span>
+<span class="nx">auth</span>            <span class="nx">include</span>        <span class="nx">postlogin</span>
+<span class="nx">account</span>        <span class="nx">sufficient</span>      <span class="nx">pam_succeed_if</span><span class="p">.</span><span class="nx">so</span> <span class="nx">uid</span> <span class="o">=</span> <span class="mi">0</span> <span class="nx">use_uid</span> <span class="nx">quiet</span>
+<span class="nx">account</span>        <span class="nx">include</span>        <span class="nx">system</span><span class="o">-</span><span class="nx">auth</span>
+<span class="nx">password</span>        <span class="nx">include</span>        <span class="nx">system</span><span class="o">-</span><span class="nx">auth</span>
+<span class="nx">session</span>        <span class="nx">include</span>        <span class="nx">system</span><span class="o">-</span><span class="nx">auth</span>
+<span class="nx">session</span>        <span class="nx">include</span>        <span class="nx">postlogin</span>
+<span class="nx">session</span>        <span class="nx">optional</span>        <span class="nx">pam_xauth</span><span class="p">.</span><span class="nx">so</span>
+</code></pre></div></div>
+
+  <!-- 引入share模块 -->
+  
+  <div class="social-share-wrapper">
+    <div class="social-share"></div>
+  </div>
+
+
+<!-- share.js -->
+<script src="/assets/js/social-share.min.js"></script>
+<script>
+  socialShare('.social-share', {
+    sites: [
+      
+        'qq'
+        ,
+        
+      
+        'wechat'
+        ,
+        
+      
+        'weibo'
+        ,
+        
+      
+        'twitter'
+        ,
+        
+      
+        'facebook'
+        
+      
+    ],
+    wechatQrcodeTitle: "分享到微信朋友圈",
+    wechatQrcodeHelper: '期待在朋友圈见到这篇文章'
+  });
+</script>
+
+</div>
+
+<!-- 底部锚点 -->
+<a id="htmldown" name="htmldown"></a>
+<!-- 引入评论模块 -->
+
+
+
+    <section class="post-footer-item comment">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zOTgwMS8xNjMyOA=="></div>
+    </section>
+
+    <!-- 来必力City版安装代码 -->
+    <script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+
+           if (typeof LivereTower === 'function') { return; }
+
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+    <!-- City版安装代码已完成 -->
+
+
+
+
+
+<!-- 引入goto模块 -->
+<div class="bounceInRight animated go">
+  <a title="顶部切换页面" class="gototop" href="#htmlup" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Top
+    </div>
+  </a>
+  <a title="底部有livere评论哦" class="gotobottom" href="#htmldown" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Foot
+    </div>
+  </a>
+</div>
+
+<!-- 引入页面底部模块 -->
+<footer id="bottom">
+  <br>
+  <span>Four && Casper ©
+  
+  
+  2018
+  </span>
+</footer>
+
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 600,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+    window.onbeforeunload = function(){
+        //刷新后页面自动回到顶部
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
